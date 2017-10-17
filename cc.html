@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <title>Cloud Compare: AWS vs. GCP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
 
 <style>
     html, body {
@@ -68,7 +67,9 @@
     .dropdown:hover .dropdown-content {
         display: block;
     }
-</style>
+</style></head>
+
+
 
 <body>
 
@@ -109,7 +110,7 @@
 <div id="Compute" class="w3-container solution w3-animate-left">
   <h2>Compute</h2>
   <table class="w3-table-all w3-card-4" style="width:100%; padding: 90px">
-  <tr>
+  <tbody><tr>
     <th>Category</th>
     <th>Feature</th> 
     <th><img class="img-responsive" src="http://d3fe8kjw89mk6u.cloudfront.net/sites/default/files/inline-images/Amazon-Web-Services-2-min.jpg" height="50" alt="icon"></th>
@@ -118,17 +119,17 @@
   </tr>
   <tr>
      <td><a href="https://cloud.google.com/docs/compare/aws/compute" target="_blank">Compute</a>
-      <td><strong>IaaS</strong><br><strong>PaaS</strong><br><strong>Containers</strong><br>Machine images<br>Temporary VM<br>Firewall<br>Firewall<br>Automatic instance scaling<br>Local attached disk<br>Local attached disk<br>Discounts</td>
+      </td><td><strong>IaaS</strong><br><strong>PaaS</strong><br><strong>Containers</strong><br>Machine images<br>Temporary VM<br>Firewall<br>Firewall<br>Automatic instance scaling<br>Local attached disk<br>Local attached disk<br>Discounts</td>
       <td><strong>EC2</strong><br><strong>Elastic Beanstalk</strong><br><strong>Elastic Compute Cloud Container</strong><br>Service Instances<br>Amazon MachineImage<br>Spotinstances<br>Securitygroups<br>Manual/Scheduled/Dynamic autoscaling (group)<br>Ephemeral disk<br>Supported formats: RAW, OVA, VMDK, and VHD<br>reserved instances</td>
       <td><strong>GCE</strong><br><strong>GAE</strong><br><strong>GKE</strong><br>Instances<br>Image<br>Preemptible VMs<br>Compute Engine firewall rules<br>Dynamic autoscaler (managed instance group)<br>Local SSD<br>Supported formats: RAW<br>sustained-use discount (-30%)</td>
   </tr>
-</table>
+</tbody></table>
 </div><br>
      
   <div id="Storage" class="w3-container solution w3-animate-left" style="display:none">
   <h2>Storage</h2>
   <table class="w3-table-all w3-card-4" style="width:100%; padding: 90px">
-  <tr>
+  <tbody><tr>
     <th>Category</th>
     <th>Feature</th> 
     <th><img class="img-responsive" src="http://d3fe8kjw89mk6u.cloudfront.net/sites/default/files/inline-images/Amazon-Web-Services-2-min.jpg" height="50" alt="icon"></th>
@@ -149,13 +150,13 @@
       <strong>Cloud Storage</strong><br><strong>Compute Engine Persistent Disks</strong><br><strong>Cloud Storage Nearline</strong><br>ZFS / Avere<br>Bucket<br>Globally unique key<br>Limited<br>Yes<br>Yes<br>Yes<br>Object change notifications<br>Standard, Durable Reduced Availability, Nearline<br>Regional and multi-regional<br>Storage DRA - data stored/month, network egress, API request<br><br> Cloud SQL<br>Datastore, Bigtable<br>Datastore<br>Dataproc / Dataflow<br>Dataflow<br>Hadoop, Spark / Beam<br>Yes / Yes<br>Manual / Auto<br>Zonal<br>Per-second / Per-min<br>Cluster / Pipeline<br>Nodes (Master and Worker) / Workers<br>Job<br>MapReduce, Hive, Pig, Spark, Spark SQL, PySpark / Beam<br>Initialization actions / File staging<br>
     </td>
   </tr>
-  </table>
+  </tbody></table>
 </div>
 
 <div id="BigData" class="w3-container solution w3-animate-left" style="display:none">
   <h2>Big Data</h2>
   <table class="w3-table-all w3-card-4" style="width:100%; padding: 90px">
-  <tr>
+  <tbody><tr>
     <th>Category</th>
     <th>Feature</th> 
     <th><img class="img-responsive" src="http://d3fe8kjw89mk6u.cloudfront.net/sites/default/files/inline-images/Amazon-Web-Services-2-min.jpg" height="50" alt="icon"></th>
@@ -171,13 +172,13 @@
     <td>BigQuery<br>N/A (fully managed)<br>N/A (fully managed)<br>N/A (fully managed)<br>Automatically adjusted<br>N/A (fully managed)<br>Regional<br>By storage and query volume<br>Legacy BigQuery SQL or Standard SQL (Beta)<br><br>Pub/Sub<br>Topic<br>N/A (fully managed)<br>Message<br>Publisher<br>Subscriber<br>N/A (fully managed)<br>7 days<br>Service-supplied publishTime (best effort)<br>10MB<br>Global<br>Per number of operations<br>
     </td>
   </tr>
-  </table>
+  </tbody></table>
 </div>
 
 <div id="Networking" class="w3-container solution w3-animate-left" style="display:none">
   <h2>Networking</h2>
   <table class="w3-table-all w3-card-4" style="width:100%; padding: 90px ">
-  <tr>
+  <tbody><tr>
     <th>Category</th>
     <th>Feature</th> 
     <th><img class="img-responsive" src="http://d3fe8kjw89mk6u.cloudfront.net/sites/default/files/inline-images/Amazon-Web-Services-2-min.jpg" height="50" alt="icon"></th>
@@ -192,8 +193,8 @@
     <td>GCE Load Balancing<br>Yes<br>Yes<br>Yes<br>Yes<br>Real-time<br>Global<br><br>Cloud VPN<br>Carrier Interconnect<br>Direct Peering<br>CDN Interconnect<br><br>Cloud DNS<br>Managed zone<br>Yes<br>Yes<br>Yes<br>No<br>No<br>No<br><br>
     </td>
   </tr>
-  </div>
-</table>
+  
+</tbody></table>
 
 
 <script>
@@ -214,5 +215,5 @@
   }
 </script>
 
-</body>
-</html>
+
+</div></div></body></html>
